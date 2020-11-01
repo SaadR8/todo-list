@@ -1,0 +1,32 @@
+.form {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: auto;
+  display: flex;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.textBar {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  justify-self: center;
+  flex: 1;
+  font-size: 15px;
+  outline: none;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  justify-self: center;
+  padding: 8px 25px 8px 15px;
+  outline: none;
+}
+
+input::placeholder {
+  color: white;
+}
